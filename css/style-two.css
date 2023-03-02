@@ -1,0 +1,316 @@
+body {
+    background-color:rgba(255, 192, 203, 0.232);} 
+
+#sidebar {
+        position: absolute;
+        width: 310px;
+        height: 111%;
+        background: orange;
+        left:-300px;
+        transition: .4s;
+        z-index: +20;
+    }
+#sidebar ul li {
+        list-style: none;
+        color: #fff;
+        font-size: 20px;
+        padding: 20px 24px; 
+    }
+#sidebar.active {
+        left: 0;
+    }
+    
+#sidebar .toggle-btn {
+        position: absolute; 
+        top: 30px;
+        left: 330px;
+    }
+.toggle-btn span {
+        width: 45px;
+    height: 4px;
+    background: white;
+    display: block;
+    margin-top: 4px;
+    }
+header {
+        background-color: rgba(255, 170, 0, 0.832); 
+        height: 4%;
+        width: 100%;
+    opacity: 90%; }
+ .subheading {background-color:  rgba(226, 167, 5, 0.603);
+            height: 28%;
+    z-index: 5;}
+ 
+    
+    .featured-books { 
+        background-color: rgba(255, 166, 0, 0.309);
+        height: 80vh; /* vh set the height 80% of the view port*/ 
+        z-index: -1;}
+    
+    .new-releases { 
+        background-color: rgba(254, 149, 36, 0.679);
+        height: 500px; 
+        display: grid; 
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        z-index: 60;}
+    .releases{ 
+        border: 0.5px solid white; 
+        height: 100%; 
+        z-index: 45;}
+#chan
+{position: absolute;
+    height: 1600px;
+top: 15%;
+left: -6%;
+z-index: 2;}
+#fatima{
+    position: absolute;
+    height: 490px;
+    top: 45%;
+    left: 34%;
+z-index: 2;}
+
+#little{
+    position: absolute;
+    top: 1000px;
+    left: 48px;
+    height: 44%;
+    box-shadow: 3px 3px 20px white;
+    z-index: 90;}
+#little:hover {
+        animation: bounce 0.5s;
+        animation-iteration-count: infinite;}
+        @keyframes bounce {
+            0%   { transform: translateY(0); }
+            50%  { transform: translateY(-50px); }
+            100% { transform: translateY(0); }
+          }
+#elisa {
+    position: absolute;
+    top: 1000px;
+    left: 43%;
+    height: 370px;
+    box-shadow: 3px 3px 20px white;
+z-index: 90;}
+#elisa:hover {
+    animation: bounce 0.5s;
+    animation-iteration-count: infinite;}
+    @keyframes bounce {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-50px); }
+        100% { transform: translateY(0); }
+      }
+#mother {
+    position: absolute;
+    top: 1000px;
+    left: 23%;
+    height: 370px;
+    box-shadow: 3px 3px 20px white;
+z-index: 90;}
+#mother:hover {
+    animation: bounce 0.5s;
+    animation-iteration-count: infinite;}
+    @keyframes bounce {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-50px); }
+        100% { transform: translateY(0); }
+      }
+#crazy-rich {
+        position: absolute;
+        top: 1000px;
+        left: 82%;
+        height: 370px;
+        box-shadow: 3px 3px 20px white;
+        z-index: 90;}
+#crazy-rich:hover {
+    animation: bounce 0.5s;
+    animation-iteration-count: infinite;}
+    @keyframes bounce {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-50px); }
+        100% { transform: translateY(0); }
+      }
+#school {
+            position: absolute;
+            top: 1000px;
+            left: 62.5%;
+            height: 370px;
+            box-shadow: 3px 3px 20px white;
+            z-index:90; }
+#school:hover {
+    animation: bounce 0.5s;
+    animation-iteration-count: infinite;}
+    @keyframes bounce {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-50px); }
+        100% { transform: translateY(0); }
+      }
+#crying {
+    position: absolute;
+    top:45%;
+    left: 67%;
+    height: 58%;
+    width: 27%;
+    z-index: 2;}
+#smile-flower {
+    position: absolute;
+    top: 15%;
+    height: 160px;
+    left: 15%;
+    rotate: -180deg;
+z-index: 2;}
+#smile-flower-two {
+    position: absolute;
+    top: -4%;
+    height: 290px;
+    left: 1%;
+    rotate: 45deg;
+z-index: 2;}
+    #smile-flower-three {
+        position: absolute;
+        top: 9%;
+        height: 230px;
+        left: 91%;
+        rotate: -180deg;
+    z-index: 2;}
+    #smile-flower-four {
+        position: absolute;
+        top: 4%;
+        height: 160px;
+        left: 83%;
+        rotate: -50deg;
+    z-index: 2;}
+
+#book-pink {
+    position: absolute;
+    top: 5%;
+    left: 86%;
+    height: 200px;
+rotate: 30deg;}
+#book-pink-two {
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    height: 200px;
+rotate: 30deg;}
+
+
+@import url(https://fonts.google.com/specimen/Anonymous+Pro);
+
+#heading-title {
+    color: orange;
+    font-family:'Anonymous Pro', monospace;
+    font-size: 100pt;
+    text-shadow: -2px 2px white,
+    2px 2px 0 #fd0470,
+   2px -2px 0 #f810af,
+  -3px -3px 0 #f9f104;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 1%;
+    left: 25%;}
+#beasts-bio {
+    color: white;
+    font-family: 'Anonymous Pro', monospace;
+    top: 163%;
+    left: 8.5%;
+    font-size: 7pt;
+    position: absolute;}
+    #mother-bio {
+        color: white;
+        font-family: 'Anonymous Pro', monospace;
+        top: 163%;
+        left: 28%;
+        font-size: 7pt;
+        position: absolute;}
+        #winter-bio {
+            color: white;
+            font-family: 'Anonymous Pro', monospace;
+            top: 163%;
+            left: 48%;
+            font-size: 7pt;
+            position: absolute;}
+            #school-bio {
+                color: white;
+                font-family: 'Anonymous Pro', monospace;
+                top: 163%;
+                left: 68%;
+                font-size: 7pt;
+                position: absolute;}
+                #crazy-bio {
+                    color: white;
+                    font-family: 'Anonymous Pro', monospace;
+                    top: 163%;
+                    left: 87%;
+                    font-size: 7pt;
+                    position: absolute;}
+            
+        
+.button {
+    background-color: #f58906;
+    border-radius: 60px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    position: absolute;
+    top: 104%;
+    left: 11%;
+    z-index: 30;
+    transition: box-shadow 0.30s;}
+.button:hover {
+    background-color: rgba(242, 9, 94, 0.422);
+    color: black;}
+    .button-two {
+        background-color: #f58906;
+        border-radius: 60px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        font-family: 'Anonymous Pro', monospace;
+        display: inline-block;
+        font-size: 13px;
+        cursor: pointer;
+        transition-duration: 0.5s;
+        position: absolute;
+        top: 104%;
+        left: 43%;
+        z-index: 30;
+        transition: box-shadow 0.30s;}
+    .button-two:hover {
+        background-color: rgba(242, 9, 94, 0.422);
+        color: black;}
+        .button-three {
+            background-color: #f58906;
+            border-radius: 60px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            font-family: 'Anonymous Pro', monospace;
+            display: inline-block;
+            font-size: 13px;
+            cursor: pointer;
+            transition-duration: 0.5s;
+            position: absolute;
+            top: 104%;
+            left: 74%;
+            z-index: 30;
+            transition: box-shadow 0.30s;}
+        .button-three:hover {
+            background-color: rgba(242, 9, 94, 0.422);
+            color: black;}
+a:visited {
+    color:#f810af
+}
+footer {
+    text-align: left;
+    padding: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:orange;
+    font-size: small;
+    color: white;
+  }

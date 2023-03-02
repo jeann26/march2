@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AAPI Books</title>
+    <link rel="stylesheet" href="css/style-three.css"> 
+
+</head>
+<body>
+    <title> About Us </title>
+
+    <img src="images copy/orange.gif" id="orange">
+    <img src="images copy/orange.gif" id="orange-two">
+    <img src="images copy/orange.gif" id="orange-right-corner">
+    <img src="images copy/orange.gif" id="orange-bottom-left">
+    <div id="sidebar">
+        <div class="toggle-btn" 
+        onclick="show()">
+    <span></span>
+    <span></span>
+    <span></span>
+    </div>
+    <ul>
+        <li><a href=index.html>Home</a> </li>
+        <li><a href=about.html> About </a></li>
+        <li> <a target=blank href=https://www.aacap.org/AACAP/Families_and_Youth/Resource_Libraries/AAPI_Resources.aspx> Resources </a></li>
+    
+    </ul>
+    </div>
+    
+    <h1 id="heading-title"> About Us </h1>
+    <h2 id="biography"> 
+ Since the start of COVID-19, there has been a rise in hate crimes
+ <br>
+ towards the AAPI community. This has made us want to highlight the 
+ <br>
+achievements and celebrate the community through our love of books. 
+<br>
+We strive to showcase various authors across genres.
+<br>
+<br>
+However, our mission does not stop at books. We wish to also provide credible
+<br> 
+resources to support the AAPI community. Please click on our resources page to 
+<br>
+find help regarding support groups, mental health, as well as other information you may need.
+<br>
+<br>
+We are always looking to improve our site. If you have any other authors or resources 
+<br>
+you would like to share, please fill out our contact form below.        
+         </h2>
+         <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="topic">Topic</label>
+              <select id="topic" name="topic">
+                <option value="authors">Authors</option>
+                <option value="resources">Resources</option>
+                <option value="general">General</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"   integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="   crossorigin="anonymous"></script> 
+    <script src="javascript/javascript.js"> </script>

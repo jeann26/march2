@@ -1,0 +1,123 @@
+body {background-color: rgba(255, 166, 0, 0.577);}
+
+@import url(https://fonts.google.com/specimen/Anonymous+Pro);
+html { 
+    min-height: 100%;
+    overflow: hidden;
+}
+
+body {
+    height:calc (100vh - 8em);
+    padding: 4em;
+    color: orange;
+    font-family:'Anonymous Pro', monospace;
+    text-shadow: 2px 3px 7px rgba(232, 10, 10, 0.241), 
+    0 10px 1px rgba(254, 151, 34, 0.981);
+}
+
+.line {
+    position:absolute;
+    width: 24em;
+    margin: 0 auto;
+    font-size: 800%;
+    left: 28%;
+    top: 23%;
+    z-index: 0;
+    white-space: nowrap;
+    overflow: hidden; transform: translateY(-50%);
+
+}
+
+.anim-typewriter {
+    animation: typewriter 4s steps(50) 1s 1 normal both, 
+    blinkTextCursor 200ms steps(40) infinite normal;
+    animation-timeline: scroll (block nearest); 
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 16em;
+    }    
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(250, 209, 220, 0.253);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+#beasts {height: 440px;
+    position: fixed;
+    left: 28%;
+    top: 38%;}
+#pachinko {
+    height: 500px;
+    position: fixed;
+    left: 45%;
+    top: 56%;
+    rotate: -90deg;}
+#time-being {height: 400px;
+position: fixed;
+left: 45%;
+top: 47%;
+rotate: -90deg;}
+#ocean {
+height: 60px;
+position: fixed;
+left: 13%;
+top: 62%;
+rotate: 90deg;}
+#crazy {
+    height: 100px;
+    position: fixed;
+    left: 57%;
+    top: 61%;
+    rotate: 90deg;}
+#school {
+    height: 445px;
+    position: fixed;
+    left: 64%;
+    top: 40%;
+rotate: 12deg;}
+#sock {
+    height: 450px;
+    position: fixed;
+left: 45%;
+top: 53%;
+rotate: -90deg;}
+
+#beasts:hover {
+    animation: bounce 0.5s;
+    animation-iteration-count: infinite;}
+    
+#orange {
+    position:absolute;
+    top: -6%;
+    left: -2%;}
+#orange-two {
+        position:absolute;
+        top: 53%;
+        left: 74%;
+    rotate: 1450deg;}
+    #orange-right-corner {
+        position:absolute;
+        top: -14%;
+        left: 74%;
+    rotate: -60deg;}
+    #orange-bottom-left {
+        position:absolute;
+        top: 54%;
+        left: -2%;
+    rotate: -60deg;}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}
